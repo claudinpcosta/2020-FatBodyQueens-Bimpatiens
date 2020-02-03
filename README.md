@@ -61,7 +61,7 @@
 
 ### Alignment details
 
-In brief, the workflow (see ... for additional information)
+In brief, the workflow:
 
 ````
 1. Sequence data quality was evaluated using FASTQC
@@ -70,4 +70,14 @@ In brief, the workflow (see ... for additional information)
 	 - Reference genome index was created using OGS annotation (splice sites & exons)
 4. Exonic expression (read counts) was extracted and summed for genes using featureCount
 ````
+
+_ notes: see ... for additional information _
+
+
+
+
+
+
+
+
 
