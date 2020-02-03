@@ -71,7 +71,7 @@ In brief, the workflow:
 4. Exonic expression (read counts) was extracted and summed for genes using featureCount
 ````
 
-_see ... for additional information_
+_see ../readmapping.sh for additional information_
 
 
 
