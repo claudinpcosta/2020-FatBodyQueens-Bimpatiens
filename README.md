@@ -73,6 +73,12 @@ In brief, the workflow:
 
 _see [readmapping.sh](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/readmapping.sh) for additional information_
 
+### Identification of differentially expressed genes
+
+
+
+
+
 
 
 
