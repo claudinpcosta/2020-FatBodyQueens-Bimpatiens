@@ -11,7 +11,7 @@ For this, you will use this input:
 ### Analysis of diapause-related gene expression
 
 For this, you will use this input:
-7. [BterApis.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/BterApis.csv): input with ID orthologs between _Apis mellifera_ and _Bombus terrestris_.
-8. [readcounts_AmselemBter.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/readcounts_AmselemBter.csv): input with all original read counts from [Amsalem et al. 2015](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.13410).
-9. [BimpApis_mod.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/BimpApis_mod.csv): input with ID orthologs between _Apis mellifera_ and _Bombus impatiens_.
-10. [coldata_Amselem.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/coldata_Amselem.csv): input with information about samples rom [Amsalem et al. 2015](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.13410).
+1. [BterApis.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/BterApis.csv): input with ID orthologs between _Apis mellifera_ and _Bombus terrestris_.
+2. [readcounts_AmselemBter.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/readcounts_AmselemBter.csv): input with all original read counts from [Amsalem et al. 2015](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.13410).
+3. [BimpApis_mod.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/BimpApis_mod.csv): input with ID orthologs between _Apis mellifera_ and _Bombus impatiens_.
+4. [coldata_Amselem.csv](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/Data/coldata_Amselem.csv): input with information about samples rom [Amsalem et al. 2015](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.13410).
