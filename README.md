@@ -101,8 +101,10 @@ We used GO enrichment analysis to explore gene functions that were overrepresent
 ### Analysis of diapause-related gene expression
 
 We also performed a molecular test of the hypothesis that age and diet mediate entry into diapause in bumble bee queens. For this, we performed a Fisher's exact test to identify whether there was a significant degree of overlap between:
-	_(a) genes differentially expressed between the B. impatiens queens in our study, at age 12 days and fed the 75% sucrose diet (12 days/75%) vs all other samples, and
-	(b) the B. terrestris queen diapause gene list from [Amsalem et al. (2015)](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.13410)_
+
+_(a) genes differentially expressed between the B. impatiens queens in our study, at age 12 days and fed the 75% sucrose diet (12 days/75%) vs all other samples, and
+(b) the B. terrestris queen diapause gene list from [Amsalem et al. (2015)](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.13410)_
+	
 	
 In brief:
 
