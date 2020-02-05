@@ -1,6 +1,6 @@
 # 2020-FatBodyQueens-Bimpatiens
 
-## Contains all analyses performed on datasets for Transcriptome analysis in the fat body of pre-overwintering bumble bee queens (Costa et al. 2020)
+## Contains all analyses performed on datasets for transcriptome analysis in the fat body of pre-overwintering bumble bee queens (Costa et al. 2020)
 
 ### Synopsis
 
@@ -86,7 +86,6 @@ _see [readmapping.sh](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpat
 Differential gene expression was analysed using the DESeq2 package. The 0 day group was excluded from this factorial analysis because these queens were collected on the day of eclosion and did not receive a diet treatment. Expression data from the 0 day group were analysed for a subset of genes. Read counts were transformed using the variance stabilizing transformation with diet, age, colony, or age × diet as factors in the design for sample clustering and visualization of gene expression levels.
 
 _see [DESEq2code.R](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/DESEq2code.R) for the codes, and we can find the input in the folder [Data](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/tree/master/Data)_
-
 
 
 
