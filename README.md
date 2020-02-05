@@ -56,7 +56,7 @@ We used RNA sequencing to examine how age and nectar diet (specifically, the con
 | Q837_R47_12d25	|	Q837	|	R47	|	12	| 25 |
 | Q441_R59_12d50	|	Q441	|	R59	|	12	| 50 |
 | Q595_R53_12d50	|	Q595	|	R53	|	12	| 50 |
-| Q707_R59_12d50	|	Q707	|	R59	| 12	| 50 |
+| Q707_R59_12d50	|	Q707	|	R59	|	12	| 50 |
 | Q902_R53_12d50	|	Q902	|	R53	|	12	| 50 |
 | Q437_R59_12d75	|	Q437	|	R59	|	12	| 75 |
 | Q464_R47_12d75	|	Q464	|	R47	|	12	| 75 |
@@ -72,16 +72,20 @@ _NOTES: Newly eclosed callow queens, which are less than 24 hr of age, were remo
 In brief, the workflow:
 
 ````
-1. Sequence data quality was evaluated using FASTQC
-2. Sequencing adapters and low quality bases were trimmed/filtered using Trimmomatic
-3. Reads were mapped to the B. impatiens v2.0 reference genome (Sadd et al. 2015) using HiSat2
+1. Sequence data quality was evaluated using FASTQC;
+2. Sequencing adapters and low quality bases were trimmed/filtered using Trimmomatic;
+3. Reads were mapped to the B. impatiens v2.0 reference genome (Sadd et al. 2015) using HiSat2;
 	 - Reference genome index was created using OGS annotation (splice sites & exons)
-4. Exonic expression (read counts) was extracted and summed for genes using featureCount
+4. Exonic expression (read counts) was extracted and summed for genes using featureCount.
 ````
 
 _see [readmapping.sh](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/readmapping.sh) for additional information_
 
 ### Identification of differentially expressed genes
+
+Differential gene expression was analysed using the DESeq2 package. The 0 day group was excluded from this factorial analysis because these queens were collected on the day of eclosion and did not receive a diet treatment. Expression data from the 0 day group were analysed for a subset of genes. Read counts were transformed using the variance stabilizing transformation with diet, age, colony, or age × diet as factors in the design for sample clustering and visualization of gene expression levels.
+
+_see 
 
 
 
