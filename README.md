@@ -109,30 +109,11 @@ _(a) genes differentially expressed between the B. impatiens queens in our study
 In brief:
 
 ````````
-1.Coding sequences from our B. impatiens gene data set were matched to honey bee (A. mellifera) orthologues in the A. mellifera genome version 4.5 using a blastp reciprocal best match (E-value 1e−6), following the procedure used by Harpur et al. (2017);
-2. Previously identified D. melanogaster orthologues were located for these A. mellifera genes in the Ensembl database (Zerbino et al., 2018);
-3. Enrichment analysis of “complete” and “slim” GO terms (both biological processes and molecular functions terms) was performed using panther (http://pantherdb.org/tools/compareToRefList.jsp).
+1. Generate gene lists from our B. impatiens data set for this analysis, we performed pairwise Wald tests using DESeq2 (see Identification of differentially expressed genes for codes and inputs);
+2. Generate B. terrestris data set, we performed deseq2 with treatment group as the only factor in the model and then used the Wald test to obtain DEGs;
+3. Fisher's exact tests of overlap our lists and Amsalem's lists.
 
 `````````
 
-_see [readmapping.sh](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/readmapping.sh) for codes and  additional information_
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+_see [DESeq2BterBimp.R](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/DESeq2BterBimp.R) for codes and  and we can find the input in the folder [Data](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/tree/master/Data)_
 
