@@ -1,6 +1,6 @@
 # 2020-FatBodyQueens-Bimpatiens
 
-## Contains all analyses performed on datasets for transcriptome analysis in the fat body of pre-overwintering bumble bee queens (Costa et al. 2020)
+## Contains all analyses performed on datasets for transcriptome analysis in the fat body of pre-overwintering bumble bee queens [(Costa et al. 2020)](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.15361)
 
 ### Synopsis
 
