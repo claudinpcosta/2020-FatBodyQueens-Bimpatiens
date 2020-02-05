@@ -2,6 +2,10 @@
 
 ## Contains all analyses performed on datasets for Transcriptome analysis in the fat body of pre-overwintering bumble bee queens (Costa et al. 2020)
 
+### Synopsis
+
+We used RNA sequencing to examine how age and nectar diet (specifically, the concentration of sucrose in nectar) impact gene expression in the pre-overwintering bumble bee queen fat body, the “liver-like” organ in insects with broad functions related to nutrient storage and metabolism.
+
 ### Sample Information
 
 | ID_Seq	| ID_Queen	| Colony	| Age	| Diet (% sucrose solution) |
@@ -58,6 +62,10 @@
 | Q464_R47_12d75	|	Q464	|	R47	|	12	| 75 |
 | Q749_R53_12d75	|	Q749	|	R53	|	12	| 75 |
 | Q866_R59_12d75	|	Q866	|	R59	|	12	| 75 |
+
+
+_NOTES: Newly eclosed callow queens, which are less than 24 hr of age, were removed from their natal colonies and either collected immediately into liquid nitrogen (hereafter referred to as “0 day” group) or subjected to one of four diet treatments, where they were given 0%, 25%, 50% or 75% (w/v) sucrose solution; these are hereafter referred to as “sucrose solution” of various concentrations._
+
 
 ### Alignment details
 
