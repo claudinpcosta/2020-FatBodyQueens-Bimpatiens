@@ -79,13 +79,44 @@ In brief, the workflow:
 4. Exonic expression (read counts) was extracted and summed for genes using featureCount.
 ````
 
-_see [readmapping.sh](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/readmapping.sh) for additional information_
+_see [readmapping.sh](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/readmapping.sh) for codes and  additional information_
 
 ### Identification of differentially expressed genes
 
 Differential gene expression was analysed using the DESeq2 package. The 0 day group was excluded from this factorial analysis because these queens were collected on the day of eclosion and did not receive a diet treatment. Expression data from the 0 day group were analysed for a subset of genes. Read counts were transformed using the variance stabilizing transformation with diet, age, colony, or age × diet as factors in the design for sample clustering and visualization of gene expression levels.
 
 _see [DESEq2code.R](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/blob/master/DESEq2code.R) for the codes, and we can find the input in the folder [Data](https://github.com/claudinpcosta/2020-FatBodyQueens-Bimpatiens/tree/master/Data)_
+
+### Gene Ontology enrichment analysis
+
+We used GO enrichment analysis to explore gene functions that were overrepresented within the natal colony, age, diet and age × diet DEG lists. In brief:
+
+````````
+1.Coding sequences from our B. impatiens gene data set were matched to honey bee (A. mellifera) orthologues in the A. mellifera genome version 4.5 using a blastp reciprocal best match (E-value 1e−6), following the procedure used by Harpur et al. (2017);
+2. Previously identified D. melanogaster orthologues were located for these A. mellifera genes in the Ensembl database (Zerbino et al., 2018);
+3. Enrichment analysis of “complete” and “slim” GO terms (both biological processes and molecular functions terms) was performed using panther (http://pantherdb.org/tools/compareToRefList.jsp).
+
+`````````
+
+### Analysis of diapause-related gene expression
+
+We also performed a molecular test of the hypothesis that age and diet mediate entry into diapause in bumble bee queens. For this, we performed a Fisher's exact test to identify whether there was a significant degree of overlap between:
+	_(a) genes differentially expressed between the B. impatiens queens in our study, at age 12 days and fed the 75% sucrose diet (12 days/75%) vs all other samples, and
+	(b) the B. terrestris queen diapause gene list from [Amsalem et al. (2015)](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.13410)_
+	
+In brief:
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
